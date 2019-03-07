@@ -25,7 +25,7 @@ To build the KMS plugin provider:
 ```
 mkdir -p $GOHOME/github.com/oracle
 cd $GOHOME/github.com/oracle
-git clone git@github.com/oracle/kubernetes-vault-kms-plugin.git
+git clone git@github.com:oracle/kubernetes-vault-kms-plugin.git
 go install github.com/oracle/kubernetes-vault-kms-plugin/vault/server
 ```
 
